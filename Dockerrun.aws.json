@@ -10,7 +10,7 @@
         },
         {
             "name": "server",
-            "image": "tg5688/multicontainer-client",
+            "image": "tg5688/multicontainer-server",
             "hostname": "server",
             "essential": false,
             "memory": 128
