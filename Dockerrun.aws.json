@@ -10,7 +10,7 @@
         },
         {
             "name": "server",
-            "image": "stephengrider/multicontainer-server",
+            "image": "tg5688/multicontainer-server",
             "hostname": "api",
             "essential": false,
             "memory": 128
