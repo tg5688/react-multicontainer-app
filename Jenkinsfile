@@ -4,7 +4,7 @@ pipeline {
 	        stage('Build test') {
 	            steps {
                 	script {
-                  		test = docker.build("tg5688/multicontainer-test", "-f Dockerfile.dev ./client")
+                  		test = docker.build("tg5688/multicontainer-test", "-f ./Dockerfile.dev ./client")
                   		test.inside{
                     			sh 'npm run test'
                   		}
